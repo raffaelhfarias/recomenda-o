@@ -3,7 +3,7 @@ streamlit
 matplotlib
 seaborn
 python-dotenv
-surprise-scikit
+scikit-surprise
 wordcloud
 plotly
 networkx
