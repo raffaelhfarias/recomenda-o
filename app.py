@@ -103,7 +103,7 @@ def main():
     selected_movie = st.sidebar.selectbox("Escolha um filme:", df["title"].tolist())
 
     # Página principal
-    st.title("CineMatch - Seu Curador de Filmes Pessoal")
+    st.title("CineMatch - Seu Indicador de Filmes Pessoal")
     
     # Detalhes do filme selecionado
     selected_details = next((m for m in movies_data if m["id"] == df[df["title"] == selected_movie]["id"].values[0]), None)
