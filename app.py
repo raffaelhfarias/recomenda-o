@@ -6,12 +6,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
 
-# Carregar chave API
+# API
 load_dotenv()
 TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 # ----------------------------------------
-# 1. Coleta de Dados do TMDB
+# 1. scraping do TMDB
 # ----------------------------------------
 @st.cache_data(ttl=86400)  # Cache válido por 24 horas
 def fetch_tmdb_movies(pages=10):
@@ -56,7 +56,7 @@ def preprocess_data(movies, genre_map):
     return df
 
 # ----------------------------------------
-# 3. Modelo de Recomendação
+# 3. modelo recomendando
 # ----------------------------------------
 class TMDBRecommender:
     def __init__(self, df):
@@ -85,7 +85,7 @@ class TMDBRecommender:
         return recommendations
 
 # ----------------------------------------
-# 4. Interface Streamlit
+# 4. Personalização
 # ----------------------------------------
 def main():
     st.set_page_config("CineMatch 🎬", layout="wide")
