@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 # Carregar chave API
 load_dotenv()
-TMDB_API_KEY = '044830b3f9dfee054961541f0bc17e0a'
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
 
 # ----------------------------------------
 # 1. Coleta de Dados do TMDB
