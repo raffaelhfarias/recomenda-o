@@ -1,6 +1,6 @@
 # 🎬 CineMatch - Seu Indicador de Filmes Pessoal
 
-![](https://github.com/raffaelhfarias/recomenda-o/blob/main/Others/Video_2025_02_12-11.gif)
+![](https://github.com/raffaelhfarias/recomenda-o/blob/main/Others/Video_2025_02_12-3_edit_2.gif?raw=true)
 
 # 👉 [CineMatch](https://recomenda-o-j3mfxmgdwbdydzvjbhbqob.streamlit.app/)
 
