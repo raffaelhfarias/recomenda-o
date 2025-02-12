@@ -1,5 +1,7 @@
 # 🎬 CineMatch - Seu Indicador de Filmes Pessoal
 
+![](https://github.com/raffaelhfarias/recomenda-o/blob/main/Others/Video_2025_02_12-11.gif)
+
 ## 🌟 O que é o CineMatch?
 Um sistema de recomendação de filmes baseado em inteligência artificial, que traz sugestões personalizadas para você, sem complicação e de forma prática.
 A ideia é simples: você escolhe um filme e, automaticamente, o CineMatch traz sugestões de filmes com base no que mais combina com o que você já gosta.
